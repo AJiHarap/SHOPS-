@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ReUseHub (Chrome debug)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "toolArgs": ["--dart-define-from-file=.env.json"]
+    },
+    {
+      "name": "ReUseHub (Android debug)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "android",
+      "toolArgs": ["--dart-define-from-file=.env.json"]
+    },
+    {
+      "name": "ReUseHub (Windows debug)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "windows",
+      "toolArgs": ["--dart-define-from-file=.env.json"]
+    }
+  ]
+}
